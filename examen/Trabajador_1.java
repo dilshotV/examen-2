@@ -74,7 +74,6 @@ class Trabajador {
                "Vehículo propio: " + (tieneVehiculo ? "Sí" : "No") + "\n" +
                "Mes: " + mesNombre + "\n" +
                "Total vendido: " + calcularTotalVentas() + "\n" +
-               "Comisiones: " + calcularTotalComisiones() + "\n" +
                "Puntos obtenidos: " + calcularTotalPuntos() + "\n" +
                "BONO EXTRA: " + ((contadorFacturas > 3 || calcularTotalVentas() > 300000) ? "Sí" : "No");
     }
@@ -86,4 +85,5 @@ class Trabajador {
     }
 }
     
+
 

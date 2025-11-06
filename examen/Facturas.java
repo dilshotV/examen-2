@@ -53,6 +53,7 @@ public class Facturas {
         if (monto > 50000) puntos += 1;
 
         return puntos;
+        
     }
 }
     }
@@ -61,4 +62,5 @@ public class Facturas {
 
     
  
+
 

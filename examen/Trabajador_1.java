@@ -82,8 +82,10 @@ class Trabajador {
         String[] meses = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
                           "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
         return (mes >= 1 && mes <= 12) ? meses[mes - 1] : "Mes inválido";
+        
     }
 }
     
+
 
 
